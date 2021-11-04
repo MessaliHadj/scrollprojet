@@ -22,20 +22,3 @@ window.addEventListener('scroll', ()=>{
   autre = document.body.getBoundingClientRect().top
   console.log(i);
 })
-// window.addEventListener('scroll', ()=>{
-//   let y = window.scrollY
-//   console.log('a: ', y);
-//   if (y < Y) {
-//     i = i++
-//     window.scrollTo({
-//       top: document.getElementById("ancre" + i).offsetTop,
-//       behavior: 'smooth'
-//     })
-//   }else{
-//     i = i--
-//     window.scrollTo({
-//       top: document.getElementById("ancre" + i).offsetTop,
-//       behavior: 'smooth'
-//     })
-//   }
-// })
